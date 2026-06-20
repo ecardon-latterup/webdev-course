@@ -5,14 +5,26 @@
 body {
   font-family: "Quicksand", sans-serif;
 }
+main {
+  margin: 0px 20px;
+}
 
 h1, h2, h3 {
   color: #006D6F;
-  font-family: "Asset", serif;
+  font-family: "Gravitas One", serif;
 }
 
 #recommendations img {
   max-width: 400px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  margin-top: 10px;
 }
 
 #profile {
