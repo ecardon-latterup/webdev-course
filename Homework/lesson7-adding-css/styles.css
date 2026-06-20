@@ -1,0 +1,12 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1, h2, h3 {
+  color: #006D6F;
+  font-family: "Asset", serif;
+}
+
+footer {
+  text-align: center;
+}

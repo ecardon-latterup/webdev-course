@@ -1,0 +1,15 @@
+body {
+  background-color: #FFC0CB;
+}
+
+h1, p {
+  color: #003262;
+}
+
+h1  {
+  font-family: "Imperial Script", cursive;
+}
+
+p {
+  font-family: sans-serif;
+}

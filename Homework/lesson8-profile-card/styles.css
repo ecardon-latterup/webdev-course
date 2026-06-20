@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1, h2, h3 {
+  color: #006D6F;
+  font-family: "Asset", serif;
+}
+
+#recommendations img {
+  max-width: 400px;
+}
+
+#profile {
+  max-width: 400px;
+  border: 2px solid darkgray;
+  padding: 16px 30px;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+
+#profile img {
+  margin: 0px 100px;
+}
+
+#profile h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}

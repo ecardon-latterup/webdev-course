@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+#box1 {
+  background-color: green;
+}
+
+#box2 {
+  background-color: blue;
+}
+
+#box3 {
+  background-color: orange;
+}
+
+.box {
+  display: inline-block;
+  width: 250px;
+  border: 2px black solid;
+  padding: 20px;
+  margin: 8px;
+}
+
+
