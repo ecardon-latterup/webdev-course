@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+    font-family: "Roboto", sans-serif;
+}
+
+#box1 {
+  background-color: green;
+}
+
+#box2 {
+  background-color: blue;
+}
+
+#box3 {
+  background-color: orange;
+}
+
+.box {
+  width: 350px;
+  border: 2px black solid;
+}
+
+
