@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.hamburger-btn {
+  margin: 20px 10px;
+}
+
+.hamburger-btn .bar {
+  display: flex;
+  width: 25px;
+  height: 3px;
+  background-color: #808080;
+  border-radius: 2px;
+  margin: 2px;
+}
+
+nav ul {
+  /* display: flex;
+  width: 500px;
+  justify-content: space-between;
+  list-style: none; */
+  display: none;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  font-weight: bold;
+  color: #808080;
+}
+
+main {
+  margin: 0px auto;
+  min-height: 85vh;
+  max-width: 80vw;
+}
+
+h1,
+h2,
+h3 {
+  color: #006d6f;
+  font-family: "Gravitas One", serif;
+}
+
+#recommendations section {
+  margin: 50px 0px;
+  width: 100%;
+}
+
+#recommendations article {
+  padding: 0px 15px;
+}
+
+#recommendations aside {
+  padding: 0px 15px;
+}
+
+#recommendations img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 6px 10px #808080;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  border: 2px solid darkgray;
+  padding: 16px 30px;
+  border-radius: 10px;
+  margin: 50px auto;
+  box-shadow: 0px 6px 10px #808080;
+}
+
+#profile img {
+  margin: 0px auto;
+}
+
+#profile h1 {
+  text-align: center;
+}
+
+#future section {
+  border: 1px solid #808080;
+  padding: 8px 20px;
+  margin: 20px 10px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 10px #808080;
+}
+
+#blog article {
+  margin: 60px 0px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hamburger-btn .bar {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  #recommendations section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #recommendations aside {
+    border: solid 1px #808080;
+    max-width: 20vw;
+  }
+
+  #recommendations img {
+    max-width: 400px;
+  }
+
+  #future {
+    display: flex;
+  }
+
+  #future section {
+  margin: 0px 10px;
+}
+
+  #future section {
+    border: 1px solid #808080;
+    padding: 8px 20px;
+    margin: 0px 10px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 10px #808080;
+  }
+}
+
+@media (min-width: 1024px) {
+}
