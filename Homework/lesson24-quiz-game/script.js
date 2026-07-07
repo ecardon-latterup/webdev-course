@@ -99,8 +99,6 @@ function checkAnswer(e) {
     }, 3000);
   }
 
-  // i++;
-  // askQuestion();
 }
 
 function askQuestion() {
