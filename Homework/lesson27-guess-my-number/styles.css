@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fe9714;
+}
+
+#container {
+  background-color: white;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 12px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 750px;
+}
+
+#timerDisplay {
+  display: flex;
+  align-self: flex-end;
+  width: 80px;
+}
+
+button {
+  background-color: #fe9714;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 16px;
+  font-size: 1.1rem;
+  box-shadow: 0px 6px 12px #808080;
+}
+
+button:hover {
+  box-shadow: 0px 6px 12px #3b3b3b;
+}
+
+input {
+  font-size: 1.1rem;
+  padding: 5px 16px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+#guessContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#previousGuesses {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 40px 20px;
+}
+
+#previousGuesses h4 {
+  margin-bottom: 10px;
+}
+
+#previousGuesses ul {
+  margin-top: 0px;
+}
+
+#resetBtn {
+  display: flex;
+  align-self: flex-end;
+  background-color: #3b3b3b;
+  color: #fe9714;
+  margin: auto 20px 20px 20px;
+}
+
+.hidden {
+  display: none !important;
+}
